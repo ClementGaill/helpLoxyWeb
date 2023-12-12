@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--f_title);
+}
+
+body {
+    background-color: var(--c_background);
+
+    width: 100%;
+    height: 100%;
+
+    height: 100vh;
+}
+
+header {
+    padding: 10px 20px;
+}
+
+header h1 {
+    font-weight: bold;
+    color: var(--c_headline);
+    font-size: 34px;
+}
+
+header span {
+    font-family: var(--f_subtitle);
+    color: var(--c_subtitle);
+    font-size: 24px;    
+}
+
+section {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section h2 {
+    font-family: var(--f_title);
+    color: var(--c_headline);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+section h3 {
+    font-family: var(--f_subtitle);
+    color: var(--c_paragraph);
+    font-size: 24px;
+    font-weight: 600;
+}
+section .inputClass {
+    display: flex;
+    padding: 20px 30px;
+}
+section .topic {
+    padding: 20px 30px;
+    width: 100%;
+}
+section .frequentTopic {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: 5px solid var(--c_paragraph);
+}
+section .frequentTopic p {
+    width: 100%;
+    font-family: var(--f_subtitle);
+    color: var(--c_paragraph);
+    font-size: 18px;
+    font-weight: 600;
+}
+section input {
+    width: 100%;
+    background-color: var(--c_input);
+    border: 0px;
+    border-radius: 15px;
+    font-family: var(--f_subtitle);
+    font-size: 20px;
+    color: var(--c_inputText);
+    padding: 10px 20px;
+}
+
+footer {
+    
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top: 5px solid var(--c_paragraph);
+    padding: 30px 20px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h4 {
+    font-family: var(--f_title);
+    color: var(--c_headline);
+    font-size: 24px;
+    font-weight: 600;
+}
+footer p {
+    font-family: var(--f_subtitle);
+    color: var(--c_paragraph);
+    font-size: 20px;
+}
+
+.mail {
+    font-family: var(--f_subtitle);
+    color: var(--c_button);
+    font-size: 18px;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+    padding-left: 5px;
+}
+
+.mail:hover {
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 767px) {
+    header h1 {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section h3 {
+        font-size: 20px;
+    }
+
+    footer h4 {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+}

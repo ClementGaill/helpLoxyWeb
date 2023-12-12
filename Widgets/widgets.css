@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Fonts */
+:root {
+    --f_title: 'Playfair Display', serif;
+    --f_subtitle: 'Urbanist', sans-serif;
+    --f_paragraph: 'Urbanist', sans-serif;
+}
+
+/* Couleurs */
+:root {
+    --c_background: #FFFAEEE7;
+    --c_headline: #33272A;
+    --c_buttonFade: rgba(51, 39, 42, 0.67);
+    --c_paragraph: #594A4E;
+    --c_button: #FF8BA7;
+    --c_buttonText: #33272A;
+    --c_inputText: #A89EA0;
+    --c_inputTextInput: #594A4E;
+    --c_input: #E8E2DF;
+    --c_error: #E57373;
+    --c_succes: #71995C;
+    --c_systemNavigationBar: #6e6262;
+}
+  
+  

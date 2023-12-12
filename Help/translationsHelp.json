@@ -1,0 +1,20 @@
+{
+    "fr": {
+        "helptitle": "Aide",
+        "welcomehelp": "Bienvenue sur la page d'aide de Loxy...",
+        "helpinputsearchtitle": "Si vous êtes à la recherche d'un sujet précis, cherchez le ici :",
+        "frequenttopictitle": "Sujet fréquent des utilisateurs :",
+        "nosubject": "Aucun sujet pour le moment",
+        "nofinduser": "Vous ne trouvez toujours pas ce que vous cherchez ?",
+        "emailtext": "Alors envoye-nous un email à contact@loxy-app.com, et decrie-nous ton problème..."
+    },
+    "en": {
+        "helptitle": "Help",
+        "welcomehelp": "Welcome to the help page of Loxy...",
+        "helpinputsearchtitle": "If you're looking for a specific topic, look here:",
+        "frequenttopictitle": "Frequent topic of users:",
+        "nosubject": "No subject for now!",
+        "nofinduser": "Still can't find what you're looking for?",
+        "loxypresscontact": "Then send us an email to contact@loxy-app.com, describing your problem..."
+    }
+}
